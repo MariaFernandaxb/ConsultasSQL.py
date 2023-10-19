@@ -1,0 +1,40 @@
+# Crie um banco de dados SQLite chamado "exercicio.db" e crie uma tabela chamada "pessoas" com os seguintes campos:
+
+# id (inteiro, chave primária)
+# nome (texto)
+# idade (inteiro)
+# cidade (texto)
+# Insira algumas linhas de dados na tabela "pessoas" que representem pessoas fictícias.
+
+# Escreva uma consulta SQL para selecionar todos os registros da tabela "pessoas".
+
+# Escreva uma consulta SQL para selecionar todas as pessoas com idade superior a 30 anos.
+
+# Escreva uma consulta SQL para selecionar todas as pessoas que moram em uma cidade chamada "Exemplo".
+
+# Escreva uma consulta SQL para atualizar a idade de uma pessoa específica na tabela "pessoas".
+
+Escreva uma consulta SQL para excluir todas as pessoas com idade inferior a 25 anos.
+
+-------------------
+
+# Crie uma nova tabela chamada "hobbies" com os seguintes campos:
+
+# id (inteiro, chave primária)
+# pessoa_id (inteiro, chave estrangeira que referencia a tabela "pessoas")
+# hobby (texto)
+
+# Insira alguns hobbies para as pessoas existentes na tabela "pessoas" na tabela "hobbies".
+
+# Escreva uma consulta SQL que retorne o nome das pessoas e seus respectivos hobbies.
+
+#Escreva uma consulta SQL que retorne todas as pessoas que têm um hobby específico.
+
+#Escreva uma consulta SQL que calcule a média de idade das pessoas na tabela "pessoas"
+
+
+#Crie uma consulta que selecione todas as pessoas que têm pelo menos um hobby em comum com uma pessoa específica. Use uma subconsulta para encontrar os hobbies da pessoa específica.
+
+#Crie uma consulta que liste todas as pessoas juntamente com suas cidades, mesmo que algumas pessoas não tenham uma cidade associada. Use uma junção externa (LEFT JOIN) para garantir que todas as pessoas sejam incluídas.
+
+#Crie uma consulta que retorne o nome da cidade com a média mais alta de idades entre suas pessoas.
